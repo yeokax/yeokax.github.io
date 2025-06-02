@@ -1,103 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yeo Khang Hsien | Senior Solutions Engineer</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeo Khang Hsien | Senior Solutions Engineer</title>
+    <style>
+        /* Modern CSS Styling */
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --dark: #333;
+            --accent: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: var(--secondary);
+            font-weight: normal;
+            margin-top: 0;
+        }
+        
+        h3 {
+            color: var(--primary);
+            border-bottom: 1px solid var(--light);
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .contact-info a {
+            color: var(--dark);
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            color: var(--secondary);
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .job, .education {
+            margin-bottom: 20px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .company {
+            color: var(--secondary);
+        }
+        
+        .date {
+            color: #666;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        @media (max-width: 600px) {
+            .job-title {
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 480px) {
+            .contact-info a {
+                font-size: 0.9em;
+                padding: 5px;
+            }
+            body {
+                padding: 10px;
+            }
+        }        
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>YEO KHANG HSIEN</h1>
-      <h2>Senior Solutions Engineer | Salesforce Marketing Cloud Expert</h2>
-      <div class="contact">
-        <a href="mailto:yeokax@gmail.com"><i class="fas fa-envelope"></i> yeokax@gmail.com</a>
-        <a href="tel:+60126352581"><i class="fas fa-phone"></i> +60 12-635-2581</a>
-        <a href="https://linkedin.com/in/yeo-khang-hsien-964b351a1" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-      </div>
+    <header>
+        <h1>YEO KHANG HSIEN</h1>
+        <h2>Senior Solutions Engineer | Salesforce Marketing Cloud Expert</h2>
+        <div class="contact-info">
+            <a href="mailto:yeokax@gmail.com">✉ yeokax@gmail.com</a>
+            <a href="tel:+60126352581">📞 +60 12-635-2581</a>
+            <a href="https://linkedin.com/in/yeo-khang-hsien-964b351a1" target="_blank">🔗 LinkedIn</a>
+        </div>
+    </header>
+
+    <div class="section">
+        <h3>PROFESSIONAL SUMMARY</h3>
+        <p>Bilingual (English/Chinese) Senior Solutions Engineer with 3+ years specializing in Salesforce Marketing Cloud implementations. Unique ability to translate complex technical concepts for stakeholders while architecting high-impact solutions (journeys, automations, APIs, cloud pages). Combines hands-on technical skills with client-facing consultancy to drive martech innovation.</p>
     </div>
-  </header>
 
-  <main class="container">
-    <!-- Summary Section -->
-    <section>
-      <h3><i class="fas fa-user"></i> PROFESSIONAL SUMMARY</h3>
-      <p>Senior Solutions Engineer with 3+ years of expertise in <strong>Salesforce Marketing Cloud (SFMC)</strong>, marketing automation, and cross-functional technical leadership. Proven ability to design scalable solutions (journeys, APIs, cloud pages) while bridging technical and business needs. Passionate about leveraging AI/ML and agile methodologies to optimize martech ecosystems.</p>
-    </section>
+    <div class="section">
+        <h3>TECHNICAL SKILLS</h3>
+        <div class="skills">
+            <div class="skill-category">
+                <h4>Salesforce Marketing Cloud</h4>
+                <ul>
+                    <li>Journey Builder</li>
+                    <li>Automation Studio</li>
+                    <li>Web Studio</li>
+                    <li>AMPscript</li>
+                    <li>SQL Queries</li>
+                    <li>API Integrations</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Programming & Tools</h4>
+                <ul>
+                    <li>Python (Advanced)</li>
+                    <li>JavaScript</li>
+                    <li>Google Tag Manager</li>
+                    <li>REST APIs (Postman)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>AI & Automation</h4>
+                <ul>
+                    <li>ChatGPT/LLM Integration</li>
+                    <li>DeepSeek</li>
+                    <li>Process Automation</li>
+                </ul>
+            </div>            
+            <div class="skill-category">
+                <h4>Platforms</h4>
+                <ul>
+                    <li>Mailchimp</li>
+                    <li>Campaign Monitor</li>
+                    <li>Google Analytics</li>
+                    <li>Meta/TikTok Pixels</li>
+                    <li>OptiMonk</li>
+                    <li>Iterable</li>
+                    <li>Klaviyo</li>
+                    <li>Braze</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-    <!-- Skills Section -->
-    <section>
-      <h3><i class="fas fa-code"></i> TECHNICAL SKILLS</h3>
-      <div class="skills-grid">
-        <div>
-          <h4>Salesforce Marketing Cloud</h4>
-          <ul>
-            <li>Journey Builder</li>
-            <li>Automation Studio</li>
-            <li>AMPscript</li>
-            <li>SQL Queries</li>
-          </ul>
+    <div class="section">
+        <h3>PROFESSIONAL EXPERIENCE</h3>
+        <div class="job">
+            <div class="job-title">
+                <span class="company">Ematic Solutions</span>
+                <span class="date">2021 - Present</span>
+            </div>
+            <div><strong>Senior Solutions Engineer</strong></div>
+            <ul>
+                <li><strong>Client Solutions Architect</strong>: Bridge technical-business gaps by proposing optimal solutions tailored to client needs, balancing feasibility with strategic goals. Build and maintain strong client relationships through clear communication and technical consultancy.</li>
+                
+                <li><strong>Technical Project Leadership</strong>: Manage end-to-end project execution with emphasis on critical path analysis, negotiating timelines, and delivering complex implementations within constraints (budget, timeline, resources).</li>
+                
+                <li><strong>Advanced SFMC Development</strong>:
+                    <ul>
+                        <li>Built 20+ complex custom setups including Cloud Pages with dynamic content, multi-step Automations, and API integrations (REST/SOAP).</li>
+                        <li>Created 15+ reusable technical templates for recurring workflows (journeys, automations, data extensions, triggered sends, etc.), reducing setup time.</li>
+                    </ul>
+                </li>
+                
+                <li><strong>Process Optimization</strong>: Implemented Agile Kanban methodologies to streamline team workflows, improving project delivery speed.</li>
+            </ul>
         </div>
-        <div>
-          <h4>Programming</h4>
-          <ul>
-            <li>Python (Advanced)</li>
-            <li>JavaScript</li>
-            <li>CSS</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Tools & Platforms</h4>
-          <ul>
-            <li>Google Tag Manager</li>
-            <li>REST APIs (Postman)</li>
-            <li>Mailchimp/Campaign Monitor</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <!-- Experience Section -->
-    <section>
-      <h3><i class="fas fa-briefcase"></i> EXPERIENCE</h3>
-      <div class="job">
-        <h4>Ematic Solutions <span class="date">2021 – Present</span></h4>
-        <h5>Senior Solutions Engineer</h5>
+    <div class="section">
+        <h3>EDUCATION</h3>
+        <div class="education">
+            <div class="job-title">
+                <span class="company">Asia Pacific University of Technology & Innovation</span>
+                <span class="date">2018 - 2021</span>
+            </div>
+            <div>Bachelor of Computer Science (Intelligent Systems)</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>ACHIEVEMENTS</h3>
         <ul>
-          <li>Built 50+ SFMC journeys, improving email engagement by 30% for enterprise clients.</li>
-          <li>Automated internal reporting using Python, reducing manual effort by 20 hours/month.</li>
-          <li>Integrated APIs (Postman) for triggered sends and data extensions.</li>
+<li>
+  <strong>World Champion</strong>, 
+  <a href="https://www.apu.edu.my/news/global-ai-champion-pride-malaysia" target="_blank">ATOS IT Challenge 2020</a>:
+  <ul>
+    <li>Led <strong>documentation</strong> and <strong>client presentations</strong> for "PestKillerBot" - an AI drone system that reduced pesticide use in floriculture through precision targeting and achieved very high pest identification accuracy</li>
+    <li>Transformed complex technical concepts into <strong>winning business cases</strong> and presentation materials for judging panel including Atos CEO/CTO</li>
+    <li>Adapted to pandemic constraints by <strong>pivoting to simulations</strong>, maintaining project continuity through detailed use cases and industry research</li>
+  </ul>
+</li>
+            <li><strong>Distinction</strong>, LCCI International Qualifications 2015</li>
         </ul>
-      </div>
-    </section>
+    </div>
 
-    <!-- Projects Section -->
-    <section>
-      <h3><i class="fas fa-project-diagram"></i> KEY PROJECTS</h3>
-      <div class="project">
-        <h4>ATOS IT Challenge 2020 (World Champion)</h4>
-        <p>Developed an AI-driven pest detection system (Python, NLP) for agriculture automation.</p>
-      </div>
-      <div class="project">
-        <h4>Cyber Bullying Detection System</h4>
-        <p>Built a Twitter-based NLP tool to filter inappropriate content with email alerts.</p>
-      </div>
-    </section>
-
-    <!-- Education Section -->
-    <section>
-      <h3><i class="fas fa-graduation-cap"></i> EDUCATION</h3>
-      <p><strong>Asia Pacific University of Technology & Innovation</strong><br>
-      Bachelor of Computer Science (Intelligent Systems) | 2018–2021</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2024 Yeo Khang Hsien | Hosted on GitHub Pages</p>
-  </footer>
+    <div class="section">
+        <h3>PROJECTS</h3>
+        <div class="job">
+            <div><strong>Cyber Bullying Detection System</strong></div>
+            <ul>
+                <li>Built a Twitter-based NLP tool to filter inappropriate content with email alerts.</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
